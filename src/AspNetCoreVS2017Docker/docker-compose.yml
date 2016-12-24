@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  aspnetcorevs2017docker:
+    image: aspnetcorevs2017docker
+    build:
+      context: .
+      dockerfile: Dockerfile
