@@ -1,1 +1,1 @@
-# AspNetCoreVS2017Docker
+# ASP.NET Core VS2017 Docker 
