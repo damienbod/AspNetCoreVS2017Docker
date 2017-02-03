@@ -4,5 +4,5 @@ services:
   aspnetcorevs2017docker:
     image: aspnetcorevs2017docker
     build:
-      context: .
+      context: ./src/AspNetCoreVS2017Docker
       dockerfile: Dockerfile

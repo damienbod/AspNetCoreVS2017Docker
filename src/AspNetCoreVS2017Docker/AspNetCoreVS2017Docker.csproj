@@ -5,10 +5,6 @@
     <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.App" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.0" />
@@ -20,19 +16,5 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="1.1.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Update=".dockerignore">
-      <DependentUpon>Dockerfile</DependentUpon>
-    </Content>
-    <Content Update="docker-compose.override.yml">
-      <DependentUpon>docker-compose.yml</DependentUpon>
-    </Content>
-    <Content Update="docker-compose.vs.debug.yml">
-      <DependentUpon>docker-compose.yml</DependentUpon>
-    </Content>
-    <Content Update="docker-compose.vs.release.yml">
-      <DependentUpon>docker-compose.yml</DependentUpon>
-    </Content>
   </ItemGroup>
 </Project>

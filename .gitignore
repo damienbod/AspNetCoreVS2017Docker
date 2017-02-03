@@ -2,3 +2,4 @@ src/AspNetCoreVS2017Docker/AspNetCoreVS2017Docker.csproj.user
 src/AspNetCoreVS2017Docker/bin
 src/AspNetCoreVS2017Docker/obj
 .vs/AspNetCoreVS2017Docker/v15/.suo
+obj
